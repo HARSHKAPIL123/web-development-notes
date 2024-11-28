@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.parent{
+    background-color: red;
+    justify-content: center;
+    height: 100vh;
+    width: 100wh;
+    align-items: center;
+    display: flex;
+
+}
+.parent:hover{
+    background-color: blue;
+    
+
+
+}
+.childone{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+
+
+}
+.childone:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+    translate: 25px;
+    
+    
+}
+.childtwo{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+.childtwo:hover{
+    translate: 80px;
+    transition: 4s;
+}
+
+
+
+    
+</style>
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+    <div class="parent">
+
+        <div class="childone"></div>
+    <div class="childtwo"></div>
+
+    </div>
+    
+</body>
+</html>
